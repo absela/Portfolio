@@ -1,3 +1,4 @@
+import Hero from '@/Components/Hero';
 import Nav from '@/Components/Nav';
 import React from 'react';
 
@@ -6,6 +7,7 @@ export default function HomePage() {
     <div className='overflow-x-hidden'>
       <div>
         <Nav />
+        <Hero />
       </div>
       
 

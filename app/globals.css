@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: dimgray;
+  background-color: rgb(2, 2, 2);
 }
 
 @layer components {
