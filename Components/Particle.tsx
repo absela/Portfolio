@@ -32,38 +32,38 @@ const Particle = () => {
   }, []);
 
   const particlesLoaded = async (container?: Container): Promise<void> => {
-    console.log(container);
+    // console.log(container);
   };
 
   const options: ISourceOptions = useMemo(
     () => ({
       background: {
-        color: {
-          value: "#0d47a1",
-        },
+        // color: {
+        //   value: "#202020",
+        // },
       },
       fpsLimit: 120,
-      interactivity: {
-        events: {
-          onClick: {
-            enable: true,
-            mode: "push",
-          },
-          onHover: {
-            enable: true,
-            mode: "repulse",
-          },
-        },
-        modes: {
-          push: {
-            quantity: 4,
-          },
-          repulse: {
-            distance: 80,
-            duration: 0.4,
-          },
-        },
-      },
+      // interactivity: {
+      //   events: {
+      //     onClick: {
+      //       enable: true,
+      //       mode: "push",
+      //     },
+      //     onHover: {
+      //       enable: true,
+      //       mode: "repulse",
+      //     },
+      //   },
+      //   // modes: {
+      //   //   push: {
+      //   //     quantity: 4,
+      //   //   },
+      //   //   repulse: {
+      //   //     distance: 80,
+      //   //     duration: 0.4,
+      //   //   },
+      //   // },
+      // },
       particles: {
         color: {
           value: "#ffffff",
@@ -92,7 +92,7 @@ const Particle = () => {
           value: 80,
         },
         opacity: {
-          value: 0.5,
+          value: 0.8,
         },
         shape: {
           type: "circle",
