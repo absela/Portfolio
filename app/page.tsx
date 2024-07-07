@@ -1,3 +1,4 @@
+import { About } from '@/Components/About';
 import Hero from '@/Components/Hero';
 import Nav from '@/Components/Nav';
 import React from 'react';
@@ -8,9 +9,10 @@ export default function HomePage() {
       <div>
         <Nav />
         <Hero />
+        <div className="relative z-[30] ">
+          <About />
+        </div>
       </div>
-      
-
     </div>
   );
 }
