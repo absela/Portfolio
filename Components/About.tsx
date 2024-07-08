@@ -14,13 +14,13 @@ export const About = () => {
                 </div>
             </div>
             <div className="lg:w-[500px] mx-auto md:mx-0 mt-8 lg:mt-0 lg:h-[500px] w-52 h-52 relative">
-                <Image
+                {/* <Image
                     src="/Anass_bsela.jpg"
                     alt="Anass Bsela"
                     layout='fill'
                     objectFit='contain'
                     className="relative z-10 w-[100%] h-[100%] rounded-none object-contain"
-                />
+                /> */}
             </div>
         </div>
     </div>
